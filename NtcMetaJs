@@ -25,7 +25,7 @@ function listNFTs() {
 }
 
 // Function Method holds counts of array 
-function getTotalSupply () {
+function getTotalSupply() {
     console.log('\nYou have ' + collectionOfNft.length + " NFT Minted!!");
 }
 
