@@ -1,23 +1,40 @@
-//
+// Stephen David Q. Condino
+// 2.5 BSIT
 
-
+// Declaring Datatype Variable = Initialize
 let collectionOfNft = [];
+let i;
 
-
-
-function mintNFT() {
-
+// Function Method holds parameters
+function mintNFT(types, brand, pickup, bottles, place ) {
+    const letsDrink = {
+        Types : types,
+        Brand : brand,
+        Pickup : pickup,
+        Bottles : bottles,
+        Place : place,
+    }
+    collectionOfNft.push(letsDrink)
 }
 
-
+// Function Method holds for loop
 function listNFTs() {
-
+        for(i=0; i<collectionOfNft.length; i++){
+            console.log(collectionOfNft[i]);
+        }
 }
 
-
-
+// Function Method holds counts of array 
 function getTotalSupply () {
-
+    console.log('\nYou have ' + collectionOfNft.length + " NFT Minted!!");
 }
 
-
+// Initializing parameter's properties and print out
+    mintNFT(' Beer ', ' Red horse ', ' Sizzling sisig ', 6, 'Stephen`s House');
+    mintNFT(' Hard ', ' GSM Blue ', ' Inihaw na bangus ', 4, 'Justine`s House');
+    mintNFT(' Hard ', ' Cocktail ', ' Barbecue ', 2, 'Chilltop');
+    
+    listNFTs();
+    
+    getTotalSupply();
+    
