@@ -1,0 +1,52 @@
+//SPDX-License-Identifier: MIT
+        pragma solidity ^0.8.18;
+
+        contract Metacrafters {
+
+            uint myAge;
+            string myFullName;
+            string myStreetName;
+            address myCrypto;
+
+
+
+        function setAge(uint Age)public{
+                 myAge = Age;
+        }
+
+        function getAge() public view {
+                 myAge;
+        }
+
+
+
+        function setFullName(string memory myFirstName, string memory myLastName) public{
+                 myFullName = myFirstName; myLastName;
+        }
+
+        function getFullName() public view returns (string memory) {
+                 return myFullName ;
+        }
+
+
+
+        function setStreetName(string memory _streetName) public{
+                 myStreetName =  _streetName;
+        }
+
+        function getStreetName() public view returns (string memory) {
+                 return myStreetName ;
+        }
+
+
+        function setAddress(address _myCrypto) public {
+                 myCrypto = _myCrypto;
+        }
+
+        function getAddress() public view returns (address){
+                 return myCrypto;
+        }
+
+}
+
+        
