@@ -18,7 +18,6 @@
                  myAge;
         }
 
-
         // a Function method that will holds the set ang get for String myFullname
         function setFullName(string memory myFirstName, string memory myLastName) public{
                  myFullName = myFirstName; myLastName;
@@ -27,7 +26,6 @@
         function getFullName() public view returns (string memory) {
                  return myFullName ;
         }
-
 
         // a Function method that will holds the set ang get for String myStreeName
         function setStreetName(string memory _streetName) public{
@@ -48,5 +46,3 @@
         }
 
 }
-
-        
