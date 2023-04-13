@@ -27,13 +27,13 @@
                  return myFullName ;
         }
 
-        // a Function method that will holds the set ang get for String myStreeName
-        function setStreetName(string memory _streetName) public{
-                 myStreetName =  _streetName;
+        // a Function method that will holds the set ang get for Bool testing
+        function setTest(bool _testing) public{
+                 testing =  _testing;
         }
 
-        function getStreetName() public view returns (string memory) {
-                 return myStreetName ;
+        function getTest() public view returns (bool) {
+                 return testing;
         }
 
         // a Function method that will holds the set ang get for Address myCrypto
