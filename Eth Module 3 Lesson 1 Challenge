@@ -5,44 +5,30 @@
 
             uint myAge;
             string myFullName;
-            string myStreetName;
+            bool testing;
             address myCrypto;
 
-
-        // a Function method that will holds the set ang get for Unsigned Integers myAge
-        function setAge(uint Age)public{
-                 myAge = Age;
+        function setMetacrafters(uint Age, string memory myFirstName, string memory myLastName, bool _testing, address _myCrypto )public{
+                myAge = Age;
+                myFullName = myFirstName; myLastName;
+                testing =  _testing;
+                myCrypto = _myCrypto;
         }
 
         function getAge() public view {
                  myAge;
         }
 
-        // a Function method that will holds the set ang get for String myFullname
-        function setFullName(string memory myFirstName, string memory myLastName) public{
-                 myFullName = myFirstName; myLastName;
-        }
-
         function getFullName() public view returns (string memory) {
                  return myFullName ;
-        }
-
-        // a Function method that will holds the set ang get for Bool testing
-        function setTest(bool _testing) public{
-                 testing =  _testing;
         }
 
         function getTest() public view returns (bool) {
                  return testing;
         }
 
-        // a Function method that will holds the set ang get for Address myCrypto
-        function setAddress(address _myCrypto) public {
-                 myCrypto = _myCrypto;
-        }
-
         function getAddress() public view returns (address){
                  return myCrypto;
         }
 
-}
+}        
