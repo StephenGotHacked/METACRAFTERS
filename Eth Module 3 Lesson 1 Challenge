@@ -38,7 +38,7 @@
                  return myStreetName ;
         }
 
-        // a Function method that will holds the set ang get for Address of myCrypto from my Metamask Address
+        // a Function method that will holds the set ang get for Address myCrypto
         function setAddress(address _myCrypto) public {
                  myCrypto = _myCrypto;
         }
