@@ -9,7 +9,7 @@
             address myCrypto;
 
 
-
+        // a Function method that will holds the set ang get for Unsigned Integers myAge
         function setAge(uint Age)public{
                  myAge = Age;
         }
@@ -19,7 +19,7 @@
         }
 
 
-
+        // a Function method that will holds the set ang get for String myFullname
         function setFullName(string memory myFirstName, string memory myLastName) public{
                  myFullName = myFirstName; myLastName;
         }
@@ -29,7 +29,7 @@
         }
 
 
-
+        // a Function method that will holds the set ang get for String myStreeName
         function setStreetName(string memory _streetName) public{
                  myStreetName =  _streetName;
         }
@@ -38,7 +38,7 @@
                  return myStreetName ;
         }
 
-
+        // a Function method that will holds the set ang get for Address of myCrypto from my Metamask Address
         function setAddress(address _myCrypto) public {
                  myCrypto = _myCrypto;
         }
