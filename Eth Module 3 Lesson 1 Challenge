@@ -5,13 +5,12 @@
 
             uint myAge;
             string myFullName;
-            bool testing;
+            bool testing = true;
             address myCrypto;
 
-        function setMetacrafters(uint Age, string memory myFirstName, string memory myLastName, bool _testing, address _myCrypto )public{
+        function setMetacrafters(uint Age, string memory myFirstName, string memory myLastName, address _myCrypto )public{
                 myAge = Age;
                 myFullName = myFirstName; myLastName;
-                testing =  _testing;
                 myCrypto = _myCrypto;
         }
 
