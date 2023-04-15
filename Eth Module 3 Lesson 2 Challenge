@@ -1,1 +1,19 @@
+//SPDX-License-Identifier: MIT
+        pragma solidity ^0.8.18;
 
+contract Ch2Metacrafters{
+
+            uint public user;
+            uint public etherval = user ^ 1e18;
+            uint public weival;
+            uint public gweival = user + 1e9;
+
+                function encode(uint val)public{
+                        user = val;
+                        weival = user;
+                }
+
+                function value()public view returns(uint){
+                        return user;
+                }
+}
