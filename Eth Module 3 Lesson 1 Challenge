@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
         pragma solidity ^0.8.18;
 
-        contract Metacrafters {
+        contract Ch1Metacrafters {
 
             uint myAge;
             string myFullName;
@@ -14,8 +14,8 @@
                 myCrypto = _myCrypto;
         }
 
-        function getAge() public view {
-                 myAge;
+        function getAge() public view returns (uint) {
+                 return myAge;
         }
 
         function getFullName() public view returns (string memory) {
