@@ -10,9 +10,12 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
+**STEP BY STEP HOW TO RUN THIS CODE**
+* You can easily get a copy address from Remix: Etherium IDE built in wallet address in **_Deploy & Run Transactions_** you will see copy button from account and you can easily get a address
+
+* 
 ```javascript
 //SPDX-License-Identifier: MIT
   pragma solidity ^0.8.18;
@@ -49,6 +52,10 @@ Be aware and alert for some errors:
 * You will see a Red Exclamation Mark in that line so you will notice that there some errors
 
 * Check your File name if its red
+
+* Don't forget to count and check some valuable symbols
+* { }, [ ], ( ), ;
+
 
 ## Authors
 
