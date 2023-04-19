@@ -15,8 +15,9 @@ An in-depth paragraph about your project and overview of use.
 
 ```javascript
 //SPDX-License-Identifier: MIT
-        pragma solidity ^0.8.18;
-contract Metacrafters{
+  pragma solidity ^0.8.18;
+        
+        contract Metacrafters{
 
             string public TokenName = "Coindino";
             string public TokenAbbrv = "COD";
@@ -41,18 +42,22 @@ contract Metacrafters{
 
 ## Help
 
-Any advise for common problems or issues.
-command to run if program contains helper info
+Be aware and alert for some errors: 
 
+*First: You will notice if your code have an error check on the upper right side of your screen you will your mini-minimize entire code there that have a red lines, blue lines mean you are in that lines and red lines means error.*
+
+*Second: You will see a Red Exclamation Mark in that line so you will notice that there some errors*
+
+*Lastly: Check your File name if its red*
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Creator: Stephen David Q. Condino 
+Email: 8215348@ntc.edu.ph
+Facebook: https://www.facebook.com/profile.php?id=100010312052822
+Contact Number: 09651272083
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
