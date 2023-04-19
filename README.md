@@ -4,7 +4,7 @@ Eth Proof: Beginner Course Project is creating a simple but useful program for N
 
 ## Description
 
-This program will shown how Minting and Burning of tokens is been processes, you can try and use this code
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that will shown how Minting and Burning of tokens is been processes. This program serves as a simple Minting and Burning Token's to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
 
 ## Getting Started
 
@@ -63,7 +63,7 @@ Be aware and alert for some errors:
 * Check your File name if its red
 
 * Don't forget to count and check some valuable symbols
-* { }, [ ], ( ), ;
+* **_{  }_** , **_[ ]_** , **_( )_** , **_;_**
 
 
 ## Authors
