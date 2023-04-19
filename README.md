@@ -15,7 +15,7 @@ This program is a simple contract written in Solidity, a programming language us
 **STEP BY STEP HOW TO RUN THIS CODE**
 * You can easily get a copy address from Remix: Etherium IDE built in wallet address in **_Deploy & Run Transactions_** you will see copy button from account and you can easily get a address
 
-> if you click the **_TokenName** and **_TokenAbbrv_** it will show the declared value because that's a type of State variables 
+> if you click the **_TokenName_** and **_TokenAbbrv_** it will show the declared value because that's a type of State variables 
 
 > if you **_TotalSupply_** and **_Balances_** without minting a value it will show a default value **0** 
 
