@@ -44,11 +44,11 @@ An in-depth paragraph about your project and overview of use.
 
 Be aware and alert for some errors: 
 
-*First: You will notice if your code have an error check on the upper right side of your screen you will your mini-minimize entire code there that have a red lines, blue lines mean you are in that lines and red lines means error.*
+* First: You will notice if your code have an error check on the upper right side of your screen you will your mini-minimize entire code there that have a red lines, blue lines mean you are in that lines and red lines means error.
 
-*Second: You will see a Red Exclamation Mark in that line so you will notice that there some errors*
+* econd: You will see a Red Exclamation Mark in that line so you will notice that there some errors
 
-*Lastly: Check your File name if its red*
+* astly: Check your File name if its red
 
 ## Authors
 
