@@ -1,6 +1,6 @@
-# Project Title
+# ETH Proof: Beginner Course(Final Assessment Project)
 
-Simple overview of use/purpose.
+Eth Proof: Beginner Course Project is creating a simple but useful program for NFTs, Minting and Burning of tokens
 
 ## Description
 
@@ -8,17 +8,36 @@ An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
-code blocks for commands
 
+```javascript
+//SPDX-License-Identifier: MIT
+        pragma solidity ^0.8.18;
+contract Metacrafters{
+
+            string public TokenName = "Coindino";
+            string public TokenAbbrv = "COD";
+            uint public TotalSupply;
+
+                    mapping (address => uint) public Balances;
+
+                function Minting (address Address, uint Value)public{
+                        TotalSupply += Value;
+                        Balances[Address] += Value;
+                }
+
+                function Burning (address Address, uint Value)public{
+                       while(Balances[Address] >= Value){
+                                TotalSupply -= Value;
+                                Balances[Address] -= Value;
+                            break;
+                       }
+                }
+         }
+```
 
 ## Help
 
