@@ -4,7 +4,7 @@ Eth Proof: Beginner Course Project is creating a simple but useful program for N
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This program will shown how Minting and Burning of tokens is been processes, you can try and use this code
 
 ## Getting Started
 
@@ -15,7 +15,16 @@ An in-depth paragraph about your project and overview of use.
 **STEP BY STEP HOW TO RUN THIS CODE**
 * You can easily get a copy address from Remix: Etherium IDE built in wallet address in **_Deploy & Run Transactions_** you will see copy button from account and you can easily get a address
 
-* 
+> if you click the **_TokenName** and **_TokenAbbrv_** it will show the declared value because that's a type of State variables 
+
+> if you **_TotalSupply_** and **_Balances_** without minting a value it will show a default value **0** 
+
+* After you have the address please input the address and value for Minting and click **_Transact_** you can check it in **_TotalSupply_** and **_Balances_** if it success run you can check your Terminal also.
+
+* If you have a Value in Balances and TotalSupply now you can use the Burning section, a burning function have a condition which is Burning section will run if the value of TotalSupply and Balances is Greater than or Equal in the value of Burning Value
+
+* Every Mint or Burn of your value will easily update it
+
 ```javascript
 //SPDX-License-Identifier: MIT
   pragma solidity ^0.8.18;
